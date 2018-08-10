@@ -19,8 +19,16 @@ end
 def dry_up
   @dry_up
 end
-end
 
+def discharge=(new_discharge)
+    @discharge=(new_discharge)
+
+def discharge
+  @discharge
+  
+  
+end 
+end
 river_one=River.new('Nile')
   puts river_one.name
 river_two=River.new('The Mississippi')
