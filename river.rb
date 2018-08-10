@@ -1,6 +1,6 @@
 # river.rb
 class River
-def initialize
+def initialize(name)
 end
 
 def flood=(new_flood)
