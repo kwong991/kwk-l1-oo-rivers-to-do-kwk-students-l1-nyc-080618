@@ -16,7 +16,7 @@ def flood=(new_flood)
 end
 
 def flood
-  @flood
+  @flood.to_i*1.3
 end
 
 def dry_up=(new_dry)
@@ -24,7 +24,7 @@ def dry_up=(new_dry)
 end
 
 def dry_up
-  @dry_up
+  @dry_up.to_i*0.5
 end
 
 def discharge=(new_discharge)
