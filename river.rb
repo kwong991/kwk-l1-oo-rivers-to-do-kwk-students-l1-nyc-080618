@@ -22,7 +22,7 @@ end
 
 def discharge=(new_discharge)
     @discharge=(new_discharge)
-
+end
 def discharge
   @discharge
   end 
