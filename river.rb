@@ -1,6 +1,7 @@
 # river.rb
 class River
 def initialize(name)
+  @name=name
 end
 
 def flood=(new_flood)
@@ -21,7 +22,7 @@ end
 end
 
 river_one=River.new('Nile')
-  puts river_one.
+  puts river_one.name
 river_two=River.new('The Mississippi')
 river_three=River.new('The Amazon')
 river_four=River.new('The Seine')
