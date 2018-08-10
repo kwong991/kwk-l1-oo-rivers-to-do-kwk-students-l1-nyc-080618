@@ -3,7 +3,7 @@ class River
 def initialize(name)
   @name=name
 end
-
+l
 def name
   @name
 end
