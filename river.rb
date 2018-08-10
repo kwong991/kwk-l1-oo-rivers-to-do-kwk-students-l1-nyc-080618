@@ -4,6 +4,9 @@ def initialize(name)
   @name=name
 end
 
+def name
+  @name
+end
 def flood=(new_flood)
   @flood=(new_flood)
 end
