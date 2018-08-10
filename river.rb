@@ -44,12 +44,12 @@ river_two=River.new('The Mississippi')
   puts river_two.name
 river_three=River.new('The Amazon')
   puts river_three.name
-  flood
+  river_three.flood
 river_four=River.new('The Seine')
-  puts river_four,name
+  puts river_four.name
 river_five=River.new('The Yangtze')
-  puts river-five.name
-  flood
+  puts river_five.name
+ river_five.flood
 river_six=River.new('The Euphrates')
   puts river_six.name
-  dry_up
+  river_six.dry_up
