@@ -40,6 +40,14 @@ end
 def length=(new_length)
   @length=new_length
 end  
+
+def countries
+  @countries
+end
+
+def countries=(new_countries)
+  @countries=new_countries
+end
 end
 river_one=River.new('Nile')
   puts river_one.name
