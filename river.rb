@@ -25,9 +25,8 @@ def discharge=(new_discharge)
 
 def discharge
   @discharge
+  end 
   
-  
-end 
 end
 river_one=River.new('Nile')
   puts river_one.name
