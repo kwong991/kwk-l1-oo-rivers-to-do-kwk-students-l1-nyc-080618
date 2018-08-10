@@ -13,5 +13,9 @@ end
 
 def dry_up=(new_dry)
   @dry=(new_dry)
+end
 
+def dry_up
+  @dry_up
+end
 end
